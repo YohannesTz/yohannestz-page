@@ -20,6 +20,7 @@ export const Certifications = () => {
                     <div className="flex flex-wrap gap-2">
                         <Button
                             color="light"
+                            href="https://adscerts.com/scholar/7FBBCC49E3BA672"
                             pill={true}>
                             Show credentials 
                             <div className="px-2 justify-center ">
@@ -42,6 +43,7 @@ export const Certifications = () => {
                     <div className="flex flex-wrap gap-2">
                         <Button
                             color="light"
+                            href="https://drive.google.com/file/d/1w9k9cI3vI62Y3qoHilAmP75g7sZZRC7B/view?usp=sharing"
                             pill={true}>
                             Show credentials 
                             <div className="px-2 justify-center ">
@@ -64,6 +66,7 @@ export const Certifications = () => {
                     <div className="flex flex-wrap gap-2">
                         <Button
                             color="light"
+                            href="https://confirm.udacity.com/GG9NUUKN"
                             pill={true}>
                             Show credentials 
                             <div className="px-2 justify-center ">

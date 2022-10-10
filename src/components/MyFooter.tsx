@@ -30,18 +30,22 @@ export const MyFooter = () => {
                         <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
                             <Footer.Icon
                                 href="https://twitter.com/TzYohannes"
+                                target="_blank" 
                                 icon={BsTwitter}
                             />
                             <Footer.Icon
                                 href="https://github.com/YohannesTz"
+                                target="_blank" 
                                 icon={BsGithub}
                             />
                             <Footer.Icon
                                 href="https://www.linkedin.com/in/yohannes-tezera-a79229194/"
+                                target="_blank" 
                                 icon={BsLinkedin}
                             />
                             <Footer.Icon
                                 href="https://t.me/yohan_nes"
+                                target = "_blank"
                                 icon={BsTelegram}
                             />
                         </div>

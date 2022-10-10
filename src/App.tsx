@@ -1,12 +1,10 @@
 import './App.css'
 import { NavigationBar } from './components/Navbar'
 import { MiddleText } from './components/Middletext';
-import { MyTimeLine } from './components/MyTimeline';
 import { Education } from './components/Education';
 import { Certifications } from './components/Certifications';
 import { Experience } from './components/Experience';
 import { MyFooter } from './components/MyFooter';
-import { Contacts } from './components/Contacts';
 import { Projects } from './components/Projects';
 import { Fade } from 'react-awesome-reveal';
 
