@@ -7,7 +7,7 @@ import { Experience } from './components/Experience';
 import { MyFooter } from './components/MyFooter';
 import { Projects } from './components/Projects';
 import { Fade } from 'react-awesome-reveal';
-import { Testemonials } from './components/Testimonials';
+import { Testimonials } from './components/Testimonials';
 
 function App() {
 
@@ -30,7 +30,7 @@ function App() {
 				<Projects />
 			</Fade>
 			<Fade direction='up' damping={0.2} triggerOnce>
-				<Testemonials />
+				<Testimonials />
 			</Fade>
 			<MyFooter />
 		</div>
