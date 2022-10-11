@@ -6,7 +6,7 @@ export const NavigationBar = () => {
             <Navbar rounded={true}>
                 <Navbar.Brand href="/">
                     <div className="px-2">
-                        <Avatar img="https://avatars.githubusercontent.com/u/52599607?v=4" bordered={true} />
+                        <Avatar size="xs" img="https://avatars.githubusercontent.com/u/52599607?v=4" bordered={true} />
                     </div>
                     <span className="self-center whitespace-nowrap text-xl text-gray-700 font-semibold dark:text-white">
                         Yohannes Tezera
