@@ -1,4 +1,5 @@
-import { Card } from "flowbite-react"
+import { Button, Card } from "flowbite-react"
+import { BsGithub } from "react-icons/bs"
 
 export const Projects = () => {
     return (
@@ -39,7 +40,7 @@ export const Projects = () => {
                         <p className="font-normal text-gray-700 dark:text-gray-400">
                             A fairly simple app made with react and react-globe.gl which uses Three.js under to visualize worlds
                             happiness and other related social data. based on the example provided by react-globe.gl.
-                            <br/>
+                            <br />
                         </p>
                     </Card>
                 </div>
@@ -56,6 +57,15 @@ export const Projects = () => {
                         </p>
                     </Card>
                 </div>
+            </div>
+
+            <div className="py-6 flex flex-row my-6 justify-center">
+                <Button pill href="https://github.com/yohannesTz">
+                    Visit Github My Page for More
+                    <div className="mx-6">
+                        <BsGithub />
+                    </div>
+                </Button>
             </div>
         </div>
     )
