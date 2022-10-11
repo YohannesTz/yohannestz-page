@@ -7,7 +7,7 @@ import { Experience } from './components/Experience';
 import { MyFooter } from './components/MyFooter';
 import { Projects } from './components/Projects';
 import { Fade } from 'react-awesome-reveal';
-import { Testemonials } from './components/Testemonials';
+import { Testemonials } from './components/Testimonials';
 
 function App() {
 
