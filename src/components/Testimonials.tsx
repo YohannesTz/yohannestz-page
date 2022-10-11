@@ -4,7 +4,7 @@ export const Testemonials = () => {
     return (
         <div id="testemonials" className="px-6">
             <div className="prose py-6 text-left">
-                <h1>Testemonials</h1>
+                <h1>Testimonials</h1>
             </div>
 
             <div className="grid grid-cols-3 gap-4">
