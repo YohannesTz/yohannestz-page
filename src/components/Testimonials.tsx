@@ -8,7 +8,7 @@ export const Testimonials = () => {
             </div>
 
             <div className="grid grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4">
-                <div className="hover:drop-shadow-xl">
+                <div className="hover:drop-shadow-xl col-span-1 flex flex-col">
                     <Card>
                         <div className="flex flex-col items-center pb-10">
                             <img
@@ -20,17 +20,17 @@ export const Testimonials = () => {
                                 Akotet Yeshaw
                             </h5>
                             <span className="text-sm text-gray-500 dark:text-gray-400">
-                                Student at Korea Advanced Institute of Science & Technology
+                                Research intern at ISIL, KAIST
                             </span>
                             <p className="font-normal text-gray-700 dark:text-gray-400">
-                                I have been lucky enough and have the opportunity to work with Yohannes. He is passionate, skillful, and most of all fun to work with. 
+                                I have been lucky enough and have the opportunity to work with Yohannes. He is passionate, skillful, and most of all fun to work with.
                                 Anyone who values being on top of projects and is looking for a highly competent full-stack/android developer will be glad to work with him.
                             </p>
                         </div>
                     </Card>
                 </div>
 
-                <div className="hover:drop-shadow-xl">
+                <div className="hover:drop-shadow-xl col-span-1 flex flex-col">
                     <Card>
                         <div className="flex flex-col items-center pb-10">
                             <img
@@ -39,7 +39,7 @@ export const Testimonials = () => {
                                 alt="Bonnie image"
                             />
                             <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">
-                                Somebody else
+                                Besfuikad Michael
                             </h5>
                             <span className="text-sm text-gray-500 dark:text-gray-400">
                                 Visual Designer
@@ -52,7 +52,7 @@ export const Testimonials = () => {
                     </Card>
                 </div>
 
-                <div className="hover:drop-shadow-xl">
+                <div className="hover:drop-shadow-xl col-span-1 flex flex-col">
                     <Card>
                         <div className="flex flex-col items-center pb-10">
                             <img
@@ -61,10 +61,10 @@ export const Testimonials = () => {
                                 alt="Bonnie image"
                             />
                             <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">
-                                Somebody else
+                                Kiya T
                             </h5>
                             <span className="text-sm text-gray-500 dark:text-gray-400">
-                                Visual Designer
+                                Developer
                             </span>
                             <p className="font-normal py-3 text-gray-700 dark:text-gray-400">
                                 Boids is an artificial life program developed by Craig Reynolds in 1986,
