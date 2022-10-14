@@ -7,7 +7,7 @@ export const Testimonials = () => {
                 <h1>Testimonials</h1>
             </div>
 
-            <div className="grid grid-cols-3 gap-4">
+            <div className="grid grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4">
                 <div className="hover:drop-shadow-xl">
                     <Card>
                         <div className="flex flex-col items-center pb-10">

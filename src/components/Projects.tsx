@@ -7,7 +7,7 @@ export const Projects = () => {
             <div className="prose py-7">
                 <h1>Projects</h1>
             </div>
-            <div className="grid grid-cols-2 gap-2">
+            <div className="grid grid-cols-2 md:grid-cols-1 gap-2">
                 <div className="hover:drop-shadow-xl">
                     <Card>
                         <a href="https://github.com/yohannesTz/okami" target="_blank" className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
