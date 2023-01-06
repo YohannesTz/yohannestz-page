@@ -25,10 +25,9 @@ export const MiddleText = () => {
             />
 
             <p>
-                Hi Yohannes here, a computer science student who constantly seeks out innovative solutions to everyday problems. 
-                I have been interested in technology since my early ages. I have been writing programs that do simple tasks since I was 17. 
-                In those years I've honed my analytical thinking and collaboration skills, and I love working with a team. I love collaborating and making connections.
-                My specialties include Java, Android, React, Flutter and kotlin.
+                Hi Yohannes here, a computer science student who constantly seeks out innovative solutions to everyday problems. I have been writing programs that
+                do simple tasks since I was 17. In those years I've honed my analytical thinking and collaboration skills, and I 
+                love working with a team. I love collaborating and making connections. My specialties include Java, Android, React, Flutter and kotlin.
 
                 <br /> <br />
                 I am always open to chatting about tech startups and would love for you to connect with me.Please feel free also to message me if you want a work to be done.
