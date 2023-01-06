@@ -19,7 +19,7 @@ export const Testimonials = () => {
                         </div>
 
                         <div className="flex items-center">
-                            <img className="w-10 h-10 rounded-full mr-4" src="/images/ak_ysh.jpeg" alt="Avatar of Jonathan Reinink" />
+                            <img className="w-10 h-10 rounded-full mr-4" src="/images/ak_ysh.jpeg" alt="Avatar of Akotet" />
                             <div className="text-sm">
                                 <p className="text-gray-900 font-medium leading-none">Akotet Y.</p>
                                 <p className="text-gray-600 pt-1">Research intern at ISIL, KAIST</p>
@@ -32,12 +32,12 @@ export const Testimonials = () => {
                     <Card>
                         <div className="mb-2">
                             <p className="text-gray-700 text-base">
-                                I have been lucky enough and have the opportunity to work with Yohannes.
+                                I have worked with yohannes before. he is good.
                             </p>
                         </div>
 
                         <div className="flex items-center">
-                            <img className="w-10 h-10 rounded-full mr-4" src="/images/bes_m.png" alt="Avatar of Jonathan Reinink" />
+                            <img className="w-10 h-10 rounded-full mr-4" src="/images/bes_m.png" alt="Avatar of Besufikad M." />
                             <div className="text-sm">
                                 <p className="text-gray-900 font-medium leading-none">Besufikad M.</p>
                                 <p className="text-gray-600 pt-1">Software Engineering student at ASTU</p>
@@ -50,12 +50,12 @@ export const Testimonials = () => {
                     <Card>
                         <div className="mb-2">
                             <p className="text-gray-700 text-base">
-                                I have been lucky enough and have the opportunity to work with Yohannes.competent full-stack/android developer will be glad to work with him.
+                                I have worked with him.
                             </p>
                         </div>
 
                         <div className="flex items-center">
-                            <img className="w-10 h-10 rounded-full mr-4" src="/images/ak_ysh.jpeg" alt="Avatar of Jonathan Reinink" />
+                            <img className="w-10 h-10 rounded-full mr-4" src="/images/kiya_t.jpeg" alt="Avatar of Kiya" />
                             <div className="text-sm">
                                 <p className="text-gray-900 font-medium leading-none">Kiya T.</p>
                                 <p className="text-gray-600">Aug 18</p>
