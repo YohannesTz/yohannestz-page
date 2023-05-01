@@ -38,7 +38,7 @@ export const MiddleText = () => {
             </p>
             <div className="flex flex-row my-6">
                 <div>
-                    <Button pill href="https://drive.google.com/file/d/1UJZNPPsgJl0aKR7mb8OoUvCzyOzQfx1i/view?usp=share_link">
+                    <Button pill href="https://drive.google.com/file/d/1pONHJzOJzxHbBZtEqU05fqLju8hR4iOc/view?usp=share_link">
                         Download Resume
                     </Button>
                 </div>
