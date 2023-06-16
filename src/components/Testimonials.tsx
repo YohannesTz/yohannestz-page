@@ -13,7 +13,7 @@ export const Testimonials = () => {
                     <Card>
                         <div className="mb-2">
                             <p className="text-gray-700 text-base">
-                                I have been lucky enough and have the opportunity to work with Yohannes. He is passionate, skillful, and most of all fun to work with.
+                                I have been lucky enough and have had the opportunity to work with Yohannes. He is passionate, skillful, and most of all fun to work with.
                                 Anyone who values being on top of projects and is looking for a highly competent full-stack/android developer will be glad to work with him.
                             </p>
                         </div>
@@ -32,7 +32,7 @@ export const Testimonials = () => {
                     <Card>
                         <div className="mb-2">
                             <p className="text-gray-700 text-base">
-                                I have worked with yohannes before. he is good.
+                                I had the pleasure of working with Yohannes, and I can confidently say that he is one of the best developers I have ever worked with. Yohannes is extremely diligent and disciplined in his work, which greatly boosts productivity for the entire team.
                             </p>
                         </div>
 
