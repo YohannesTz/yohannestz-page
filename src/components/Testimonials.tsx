@@ -46,6 +46,24 @@ export const Testimonials = () => {
                     </Card>
                 </div>
 
+                <div className="flex flex-col text-left col-span-1 px-5 hover:drop-shadow-xl">
+                    <Card>
+                        <div className="mb-2">
+                            <p className="text-gray-700 text-base">
+                            i had the the honor of working with Yohannes, highly disciplined, versatile and a problem solving machine.. and has nose for Kotlin too.
+                            </p>
+                        </div>
+
+                        <div className="flex items-center">
+                            <img className="w-10 h-10 rounded-full mr-4" src="/images/dawit_sh.jpg" alt="Avatar of Akotet" />
+                            <div className="text-sm">
+                                <p className="text-gray-900 font-medium leading-none">Dawit Sh.</p>
+                                <p className="text-gray-600 pt-1">Foss advocate, CS, linux enthusiast </p>
+                            </div>
+                        </div>
+                    </Card>
+                </div>
+
                 <div className="flex flex-col text-left px-5 col-span-1 hover:drop-shadow-xl">
                     <Card>
                         <div className="mb-2">
