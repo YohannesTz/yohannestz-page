@@ -54,7 +54,7 @@ export const Testimonials = () => {
                             </p>
                         </div>
 
-                        <div className="flex items-center">
+                        <div className="flex items-center mt-auto">
                             <img className="w-10 h-10 rounded-full mr-4" src="/images/dawit_sh.jpg" alt="Avatar of Akotet" />
                             <div className="text-sm">
                                 <p className="text-gray-900 font-medium leading-none">Dawit Sh.</p>
