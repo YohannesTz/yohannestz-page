@@ -7,8 +7,22 @@ export const Experience = () => {
             <div className="prose py-7">
                 <h1>Experience</h1>
             </div>
-            
+
             <Timeline>
+                <Timeline.Item>
+                    <Timeline.Point icon={FaCalendar} />
+                    <Timeline.Content>
+                        <Timeline.Time>
+                            Aug 2023 - present
+                        </Timeline.Time>
+                        <Timeline.Title>
+                            Software Developer Intern
+                        </Timeline.Title>
+                        <Timeline.Body>
+                            KurazTech
+                        </Timeline.Body>
+                    </Timeline.Content>
+                </Timeline.Item>
                 <Timeline.Item>
                     <Timeline.Point icon={FaCalendar} />
                     <Timeline.Content>

@@ -20,7 +20,7 @@ export const Projects = () => {
                 </div>
 
 
-                <div className="hover:drop-shadow-xl">
+                {/* <div className="hover:drop-shadow-xl">
                     <Card>
                         <a href="https://github.com/YohannesTz/BoidsFX" target="_blank" className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                             BoidsFX
@@ -28,6 +28,17 @@ export const Projects = () => {
                         <p className="font-normal text-gray-700 dark:text-gray-400">
                             Boids is an artificial life program developed by Craig Reynolds in 1986,
                             which simulates the flocking behaviour of birds.
+                        </p>
+                    </Card>
+                </div> */}
+
+                <div className="hover:drop-shadow-xl">
+                    <Card>
+                        <a href="https://github.com/YohannesTz/Pikslate" target="_blank" className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                            Pikslate
+                        </a>
+                        <p className="font-normal text-gray-700 dark:text-gray-400">
+                            Simple cli app that is made using Jake wharthon's Mosaic to pixelate and draw a given image/video on the terminal.
                         </p>
                     </Card>
                 </div>
@@ -40,7 +51,7 @@ export const Projects = () => {
                         <p className="font-normal text-gray-700 dark:text-gray-400">
                             A fairly simple app made with react and react-globe.gl which uses Three.js under to visualize worlds
                             happiness and other related social data. based on the example provided by react-globe.gl.
-                            <br /> <br/>
+                            <br /> <br />
                         </p>
                     </Card>
                 </div>

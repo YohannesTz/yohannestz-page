@@ -8,6 +8,7 @@ import { MyFooter } from './components/MyFooter';
 import { Projects } from './components/Projects';
 import { Fade } from 'react-awesome-reveal';
 import { Testimonials } from './components/Testimonials';
+import { Blogs } from './components/Blogs';
 
 function App() {
 
@@ -28,6 +29,9 @@ function App() {
 			</Fade>
 			<Fade direction='up' damping={0.2} triggerOnce>
 				<Projects />
+			</Fade>
+			<Fade direction='up' damping={0.2} triggerOnce>
+				<Blogs />
 			</Fade>
 			<Fade direction='up' damping={0.2} triggerOnce>
 				<Testimonials />

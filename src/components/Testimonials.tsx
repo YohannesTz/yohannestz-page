@@ -48,13 +48,13 @@ export const Testimonials = () => {
 
                 <div className="flex flex-col text-left col-span-1 px-5 hover:drop-shadow-xl">
                     <Card>
-                        <div className="mb-2">
+                        <div className="mb-2 mt-auto">
                             <p className="text-gray-700 text-base">
                                 I had the the honor of working with Yohannes, highly disciplined, versatile and a problem solving machine.. and has nose for Kotlin too.
                             </p>
                         </div>
 
-                        <div className="flex items-center mt-auto">
+                        <div className="flex items-center">
                             <img className="w-10 h-10 rounded-full mr-4" src="/images/dawit_sh.jpg" alt="Avatar of Akotet" />
                             <div className="text-sm">
                                 <p className="text-gray-900 font-medium leading-none">Dawit Sh.</p>
