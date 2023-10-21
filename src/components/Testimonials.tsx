@@ -7,9 +7,8 @@ export const Testimonials = () => {
                 <h1>Testimonials</h1>
             </div>
 
-            <div className="grid mx-auto lg:grid-cols-3 sm:grid-cols-1 gap-4">
-
-                <div className="flex flex-col text-left col-span-1 px-5 hover:drop-shadow-xl">
+            <div className="grid mx-auto auto-rows-fr lg:grid-cols-3 sm:grid-cols-1 lg:gap-3 gap-4">
+                <div className="flex flex-col text-left col-span-1 hover:drop-shadow-xl">
                     <Card>
                         <div className="mb-2">
                             <p className="text-gray-700 text-base">
@@ -28,7 +27,7 @@ export const Testimonials = () => {
                     </Card>
                 </div>
 
-                <div className="flex flex-col text-left px-5 col-span-1 hover:drop-shadow-xl">
+                <div className="flex flex-col text-left col-span-1 hover:drop-shadow-xl">
                     <Card>
                         <div className="mb-2">
                             <p className="text-gray-700 text-base">
@@ -46,7 +45,7 @@ export const Testimonials = () => {
                     </Card>
                 </div>
 
-                <div className="flex flex-col text-left col-span-1 px-5 hover:drop-shadow-xl">
+                <div className="flex flex-col text-left col-span-1 hover:drop-shadow-xl">
                     <Card>
                         <div className="mb-2 mt-auto">
                             <p className="text-gray-700 text-base">

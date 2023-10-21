@@ -14,7 +14,7 @@ export const Projects = () => {
                             Okami
                         </a>
                         <p className="font-normal text-gray-700 dark:text-gray-400">
-                            An Android app that uses the kitsu api to let users explore anime and manga.
+                            An Android app that uses the kitsu api to let users explore anime and manga. <br></br><br></br>
                         </p>
                     </Card>
                 </div>
