@@ -10,11 +10,9 @@ export const MiddleText = () => {
                 sequence={[
                     'Web',
                     2500,
-                    'Fullstack',
+                    'Backend',
                     2500,
                     'Android',
-                    2500,
-                    'Flutter',
                     2500
                 ]}
                 wrapper="h1"
@@ -25,12 +23,14 @@ export const MiddleText = () => {
             />
 
             <p>
-                Hi Yohannes here, a computer science student who constantly seeks out innovative solutions to everyday problems. I have been writing programs that
-                do simple tasks since I was 17. In those years I've honed my analytical thinking and collaboration skills, and I 
-                love working with a team. I love collaborating and making connections. My specialties include Java, Android, React, Flutter and kotlin.
+                Hi, Yohannes here, a computer science student who constantly seeks out innovative solutions to everyday problems. I have been writing programs that do simple tasks since I was 17. 
+                In those years, I've honed my analytical thinking and collaboration skills, and I love working with a team. I love collaborating and making connections. 
 
                 <br /> <br />
-                I am always open to chatting about tech startups and would love for you to connect with me.Please feel free also to message me if you want a work to be done.
+                I am always open to chatting about tech startups, and I would love for you to connect with me. Please feel free to message me if you want work done.
+                Skills: Java, Android, React, Flutter, and Kotlin.
+                Open to: remote jobs and internships
+
                 <br />
                 Skills: Java, Android, React, Flutter and kotlin.
                 <br />
@@ -38,7 +38,7 @@ export const MiddleText = () => {
             </p>
             <div className="flex flex-row my-6">
                 <div>
-                    <Button pill href="https://drive.google.com/file/d/121H6hNMGXWx6UUgDBo0-564j7VsbJjH3/view?usp=share_link">
+                    <Button pill href="https://drive.google.com/file/d/121H6hNMGXWx6UUgDBo0-564j7VsbJjH3/view?usp=share_link" target="_blank">
                         Download Resume
                     </Button>
                 </div>
