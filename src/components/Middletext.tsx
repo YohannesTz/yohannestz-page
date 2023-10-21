@@ -23,8 +23,8 @@ export const MiddleText = () => {
             />
 
             <p>
-                Hi, Yohannes here, a computer science student who constantly seeks out innovative solutions to everyday problems. I have been writing programs that do simple tasks since I was 17. 
-                In those years, I've honed my analytical thinking and collaboration skills, and I love working with a team. I love collaborating and making connections. 
+                Hi, Yohannes here, a computer science student who constantly seeks out innovative solutions to everyday problems. I have been writing programs that do simple tasks since I was 17.
+                In those years, I've honed my analytical thinking and collaboration skills, and I love working with a team. I love collaborating and making connections.
 
                 <br /> <br />
                 I am always open to chatting about tech startups, and I would love for you to connect with me. Please feel free to message me if you want work done.
@@ -38,8 +38,10 @@ export const MiddleText = () => {
             </p>
             <div className="flex flex-row my-6">
                 <div>
-                    <Button pill href="https://drive.google.com/file/d/121H6hNMGXWx6UUgDBo0-564j7VsbJjH3/view?usp=share_link" target="_blank">
-                        Download Resume
+                    <Button pill>
+                        <a href="https://drive.google.com/file/d/121H6hNMGXWx6UUgDBo0-564j7VsbJjH3/view?usp=share_link" target="_blank">
+                            Download Resume
+                        </a>
                     </Button>
                 </div>
             </div>

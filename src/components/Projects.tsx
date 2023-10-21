@@ -71,8 +71,11 @@ export const Projects = () => {
             </div>
 
             <div className="py-6 flex flex-row my-6 justify-center">
-                <Button pill href="https://github.com/yohannesTz">
-                    Visit Github My Page for More
+                <Button pill>
+                    <a href="https://github.com/yohannesTz" target="_blank">
+                        Visit My Github Page for More
+                    </a>
+
                     <div className="mx-3">
                         <BsGithub />
                     </div>

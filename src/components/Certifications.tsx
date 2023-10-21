@@ -20,11 +20,13 @@ export const Certifications = () => {
                     <div className="flex flex-wrap gap-2">
                         <Button
                             color="light"
-                            href="https://adscerts.com/scholar/7FBBCC49E3BA672"
                             pill={true}>
-                            Show credentials 
+                            <a href="https://adscerts.com/scholar/7FBBCC49E3BA672" target="_blank">
+                                Show credentials
+                            </a>
+
                             <div className="px-2 justify-center ">
-                                <FaExternalLinkAlt/>
+                                <FaExternalLinkAlt />
                             </div>
                         </Button>
                     </div>
@@ -34,20 +36,21 @@ export const Certifications = () => {
             <div className="my-4">
                 <Card>
                     <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                        Tech Camp Ethiopia - Full-stack web Development 
+                        Tech Camp Ethiopia - Full-stack web Development
                     </h5>
                     <p className="font-normal text-gray-700 dark:text-gray-100">
                         Issued on Jun 2021
                     </p>
-                    
+
                     <div className="flex flex-wrap gap-2">
                         <Button
                             color="light"
-                            href="https://drive.google.com/file/d/1w9k9cI3vI62Y3qoHilAmP75g7sZZRC7B/view?usp=sharing"
                             pill={true}>
-                            Show credentials 
+                            <a href="https://drive.google.com/file/d/1w9k9cI3vI62Y3qoHilAmP75g7sZZRC7B/view?usp=sharing">
+                                Show credentials
+                            </a>
                             <div className="px-2 justify-center ">
-                                <FaExternalLinkAlt/>
+                                <FaExternalLinkAlt />
                             </div>
                         </Button>
                     </div>
@@ -62,22 +65,23 @@ export const Certifications = () => {
                     <p className="font-normal text-gray-700 dark:text-gray-100">
                         Issued on Jun 2021
                     </p>
-                    
+
                     <div className="flex flex-wrap gap-2">
                         <Button
                             color="light"
-                            href="https://confirm.udacity.com/GG9NUUKN"
                             pill={true}>
-                            Show credentials 
+                            <a href="https://confirm.udacity.com/GG9NUUKN">
+                                Show credentials
+                            </a>
                             <div className="px-2 justify-center ">
-                                <FaExternalLinkAlt/>
+                                <FaExternalLinkAlt />
                             </div>
                         </Button>
                     </div>
                 </Card>
             </div>
 
-            
+
         </div>
     )
 }
