@@ -1,4 +1,4 @@
-import { Avatar, Navbar } from "flowbite-react";
+import { Avatar, DarkThemeToggle, Navbar } from "flowbite-react";
 
 export const NavigationBar = () => {
     return (
