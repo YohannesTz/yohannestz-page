@@ -27,7 +27,7 @@ export const Experience = () => {
                     <Timeline.Point icon={FaCalendar} />
                     <Timeline.Content>
                         <Timeline.Time>
-                            Sep 2022 - present
+                            Sep 2022 - Oct 2023
                         </Timeline.Time>
                         <Timeline.Title>
                             Freelance Android Developer
@@ -41,7 +41,7 @@ export const Experience = () => {
                     <Timeline.Point icon={FaCalendar} />
                     <Timeline.Content>
                         <Timeline.Time>
-                            Nov 2021 - present
+                            Nov 2021 - Nov 2022
                         </Timeline.Time>
                         <Timeline.Title>
                             Volunteer full-stack web developer
@@ -55,7 +55,7 @@ export const Experience = () => {
                     <Timeline.Point icon={FaCalendar} />
                     <Timeline.Content>
                         <Timeline.Time>
-                            Sep 2021 - present
+                            Sep 2021 - Nov 2021
                         </Timeline.Time>
                         <Timeline.Title>
                             Talent Pool memeber as Juniour Android Developer

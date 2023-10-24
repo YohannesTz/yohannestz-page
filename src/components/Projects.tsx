@@ -3,12 +3,12 @@ import { BsGithub } from "react-icons/bs"
 
 export const Projects = () => {
     return (
-        <div id="projects" className="py-6 px-6 text-left">
+        <div id="projects" className="py-6 md:px-6 text-left">
             <div className="prose py-7">
                 <h1>Projects</h1>
             </div>
-            <div className="grid md:grid-cols-2 sm:grid-cols-1 gap-2">
-                <div className="hover:drop-shadow-xl">
+            <div className="grid md:grid-cols-2 sm:grid-cols-1 auto-rows-fr gap-2">
+                <div className="hover:drop-shadow-xl ">
                     <Card>
                         <a href="https://github.com/yohannesTz/okami" target="_blank" className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                             Okami
@@ -19,20 +19,7 @@ export const Projects = () => {
                     </Card>
                 </div>
 
-
-                {/* <div className="hover:drop-shadow-xl">
-                    <Card>
-                        <a href="https://github.com/YohannesTz/BoidsFX" target="_blank" className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                            BoidsFX
-                        </a>
-                        <p className="font-normal text-gray-700 dark:text-gray-400">
-                            Boids is an artificial life program developed by Craig Reynolds in 1986,
-                            which simulates the flocking behaviour of birds.
-                        </p>
-                    </Card>
-                </div> */}
-
-                <div className="hover:drop-shadow-xl">
+                <div className="hover:drop-shadow-xl ">
                     <Card>
                         <a href="https://github.com/YohannesTz/Pikslate" target="_blank" className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                             Pikslate
@@ -43,7 +30,7 @@ export const Projects = () => {
                     </Card>
                 </div>
 
-                <div className="hover:drop-shadow-xl">
+                <div className="hover:drop-shadow-xl ">
                     <Card>
                         <a href="https://github.com/YohannesTz/WorldHappinessScore" target="_blank" className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                             WorldHappinesScore
@@ -56,7 +43,7 @@ export const Projects = () => {
                     </Card>
                 </div>
 
-                <div className="hover:drop-shadow-xl">
+                <div className="hover:drop-shadow-xl ">
                     <Card>
                         <a href="https://github.com/YohannesTz/ChapaKt" target="_blank" className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                             ChapaKt
@@ -70,13 +57,13 @@ export const Projects = () => {
                 </div>
             </div>
 
-            <div className="py-6 flex flex-row my-6 justify-center">
+            <div className="py-6 flex flex-row my-6 justify-center sm:text-xs">
                 <Button pill>
-                    <a href="https://github.com/yohannesTz" target="_blank">
+                    <a href="https://github.com/yohannesTz" className="sm:truncate line-clamp-1" target="_blank">
                         Visit My Github Page for More
                     </a>
 
-                    <div className="mx-3">
+                    <div className="md:mx-3 sm:mx-0">
                         <BsGithub />
                     </div>
                 </Button>

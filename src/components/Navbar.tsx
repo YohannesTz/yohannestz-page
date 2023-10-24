@@ -29,11 +29,11 @@ export const NavigationBar = () => {
                     <Navbar.Link href="/#experience">
                         Experience
                     </Navbar.Link>
-                    <Navbar.Link href="/#projects">
-                        Projects
-                    </Navbar.Link>
                     <Navbar.Link href="/#technologies">
                         Technologies
+                    </Navbar.Link>
+                    <Navbar.Link href="/#projects">
+                        Projects
                     </Navbar.Link>
                 </Navbar.Collapse>
             </Navbar>
