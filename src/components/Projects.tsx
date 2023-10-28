@@ -1,60 +1,54 @@
 import { Button, Card } from "flowbite-react"
 import { BsGithub } from "react-icons/bs"
+import { ProjectsModalComponent } from "./ProjectsModalComponent"
+import { useState } from "react"
 
-export const Projects = () => {
+interface Project {
+    name: string,
+    link: string,
+    description: string,
+    mdName: string
+}
+
+interface ProjectsPropTypes {
+    data: Project[]
+}
+
+export const Projects: React.FC<ProjectsPropTypes> = ({ data }) => {
+    const [showModal, setShowModal] = useState(false);
+    const [selectedProject, setSelectedProject] = useState<any>({});
+
+    const openModal = (project: Project) => {
+        setShowModal(true);
+        setSelectedProject(project);
+    };
+
+    const closeModal = () => {
+        setShowModal(false);
+    };
+
+
     return (
         <div id="projects" className="py-6 md:px-6 text-left">
             <div className="prose py-7">
                 <h1>Projects</h1>
             </div>
-            <div className="grid md:grid-cols-2 sm:grid-cols-1 auto-rows-fr gap-2">
-                <div className="hover:drop-shadow-xl ">
-                    <Card>
-                        <a href="https://github.com/yohannesTz/okami" target="_blank" className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                            Okami
-                        </a>
-                        <p className="font-normal text-gray-700 dark:text-gray-400">
-                            An Android app that uses the kitsu api to let users explore anime and manga. <br></br><br></br>
-                        </p>
-                    </Card>
-                </div>
-
-                <div className="hover:drop-shadow-xl ">
-                    <Card>
-                        <a href="https://github.com/YohannesTz/Pikslate" target="_blank" className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                            Pikslate
-                        </a>
-                        <p className="font-normal text-gray-700 dark:text-gray-400">
-                            Simple cli app that is made using Jake wharthon's Mosaic to pixelate and draw a given image/video on the terminal.
-                        </p>
-                    </Card>
-                </div>
-
-                <div className="hover:drop-shadow-xl ">
-                    <Card>
-                        <a href="https://github.com/YohannesTz/WorldHappinessScore" target="_blank" className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                            WorldHappinesScore
-                        </a>
-                        <p className="font-normal text-gray-700 dark:text-gray-400">
-                            A fairly simple app made with react and react-globe.gl which uses Three.js under to visualize worlds
-                            happiness and other related social data. based on the example provided by react-globe.gl.
-                            <br /> <br />
-                        </p>
-                    </Card>
-                </div>
-
-                <div className="hover:drop-shadow-xl ">
-                    <Card>
-                        <a href="https://github.com/YohannesTz/ChapaKt" target="_blank" className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                            ChapaKt
-                        </a>
-                        <p className="font-normal text-gray-700 dark:text-gray-400">
-                            Simple api wrapper and utilities for chapa payment gateway. I know this is a hacky or
-                            not a really good solution but that's all what we got now until chapa releases an official
-                            Android-Sdk or just a rest api for everybody to use.
-                        </p>
-                    </Card>
-                </div>
+            <ProjectsModalComponent show={showModal} onClose={closeModal} project={selectedProject} />
+            <div className="grid md:grid-cols-2 sm:grid-cols-1 gap-2">
+                {data.map((item, index) => {
+                    return (
+                        <div className="hover:drop-shadow-xl" key={index}>
+                            <div className="flex rounded-lg h-full border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col" data-testid="flowbite-card">
+                                <div className="flex h-full flex-col justify-center gap-4 p-6">
+                                    <a href={item.link} target="_blank" className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{item.name}</a>
+                                    <p className="font-normal text-gray-700 dark:text-gray-400">{item.description}</p>
+                                    {/* <a onClick={openModal} className="font-normal text-gray-700 dark:text-gray-400">View More</a> */}
+                                    <Button pill onClick={() => openModal(item)} color="light">View More</Button>
+                                </div>
+                            </div>
+                        </div>
+                    );
+                })}
             </div>
 
             <div className="py-6 flex flex-row my-6 justify-center sm:text-xs">

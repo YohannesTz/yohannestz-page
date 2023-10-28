@@ -4,7 +4,7 @@ import { BsTwitter, BsGithub, BsLinkedin, BsTelegram } from "react-icons/bs"
 export const MyFooter = () => {
     return (
         <div className="my-12 text-right" >
-            <Footer bgDark={true} container={true}>
+            <Footer bgDark={false} container={true}>
                 <div className="w-full">
                     <div>
                         <Footer.Title title="Contact" />
