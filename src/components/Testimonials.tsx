@@ -22,7 +22,7 @@ export const Testimonials: React.FC<TestimonialsPropTypes> = ({ data }) => {
                 {data.map((item, index) => {
                     return (
                         <div className="hover:drop-shadow-xl" key={index}>
-                            <div className="flex rounded-lg h-full border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col" data-testid="flowbite-card">
+                            <div className="flex rounded-lg h-full border border-gray-200 hover:border-slate-400 bg-white shadow-md flex-col" data-testid="flowbite-card">
                                 <div className="flex h-full flex-col justify-center gap-4 p-6">
                                     <div className="mb-2 flex-grow">
                                         <p className="text-gray-700 text-base">{item.content}</p>

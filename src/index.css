@@ -11,3 +11,7 @@ html {
         animation-play-state: paused;
     }
 }
+
+.markdown>* {
+    all: revert;
+}

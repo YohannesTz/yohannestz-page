@@ -30,7 +30,7 @@ export const Blogs: React.FC<BlogProps> = ({ data }) => {
             <div className="my-6">
                 {data.map((item, index) => {
                     return (
-                        <div className="flex rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col" data-testid="flowbite-card" key={index}>
+                        <div className="flex rounded-lg border border-gray-200 hover:border-slate-400 bg-white shadow-md flex-col" data-testid="flowbite-card" key={index}>
                             <div className="flex h-full flex-col justify-center gap-4 p-6">
                                 <p className="font-normal text-gray-700 dark:text-gray-100">{addLineBreak(item.text)}</p>
                                 <div className="flex flex-wrap gap-2">
