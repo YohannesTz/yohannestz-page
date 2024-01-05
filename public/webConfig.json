@@ -43,9 +43,14 @@
   ],
   "experience": [
     {
+      "title": "Android Developer",
+      "company": "Africa Technologies",
+      "time": "Dec 2023 - Present"
+    },
+    {
       "title": "Junior Backend Developer",
       "company": "KurazTech",
-      "time": "Nov 2023 - Present"
+      "time": "Nov 2023 - Dec 2023"
     },
     {
       "title": "Software Developer Intern",
@@ -116,7 +121,7 @@
     {
       "name": "Dawit Sh.",
       "title": "DevOps | Low Level Programming | Mainstream Applications | Full Stack.",
-      "content": "I had the the honor of working with Yohannes, highly disciplined, versatile and a problem solving machine.. and has nose for Kotlin too.",
+      "content": "I had the the honor of working with Yohannes, highly disciplined, versatile, and a problem-solving machine.. and has nose for Kotlin too.",
       "photoUrl": "https://yohannestz.netlify.app/images/dawit_sh.jpg"
     }
   ]
