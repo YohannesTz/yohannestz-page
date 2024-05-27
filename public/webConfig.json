@@ -12,13 +12,13 @@
       "schoolName": "Microlink IT College",
       "time": "2021 - 2024",
       "type": "Bsc - Computer Science",
-      "description": "• Coursework: Data Structures and Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, Operating Systems, Computer Networks, Software Engineering, Artificial Intelligence, Cybersecurity, Mobile App Development"
+      "description": "• Coursework: Data Structures and Algorithms, Object-Oriented Programming, Database Systems Management, Web Development, Operating Systems, Computer Networks, Software Engineering, Artificial Intelligence, Cybersecurity, Mobile App Development"
     },
     {
       "schoolName": "Dejazmach Wondirad Preparatory School",
       "time": "2018 - 2020",
       "type": "Highschool Diploma - Natural Sciences",
-      "description": "Learned the standard Ethiopian Highschool curriculum including related courseworks."
+      "description": "Learned the standard Ethiopian Highschool curriculum including related coursework."
     }
   ],
   "certifications": [
@@ -43,9 +43,14 @@
   ],
   "experience": [
     {
-      "title": "Android Developer",
+      "title": "Lead Android Developer",
+      "company": "Alet Systems",
+      "time": "May 2024 - Present"
+    },
+    {
+      "title": "Junior Android Developer",
       "company": "Africa Technologies",
-      "time": "Dec 2023 - Present"
+      "time": "Dec 2023 - May 2024"
     },
     {
       "title": "Junior Backend Developer",
@@ -64,7 +69,7 @@
     },
     {
       "title": "Volunteer Fullstack web developer",
-      "company": "ENADB - Ethiopian National Assosiation of the Deafblind",
+      "company": "ENADB - Ethiopian National Association of the Deafblind",
       "time": "Nov 2021 - 2022"
     },
     {
