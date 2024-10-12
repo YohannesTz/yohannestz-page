@@ -1,9 +1,9 @@
 {
   "topText": {
     "stacks": ["Android", "Web", "Backend"],
-    "personalIntroOne": "Hi, Yohannes here, a computer science student who constantly seeks out innovative solutions to everyday problems. I have been writing programs that do simple tasks since I was 17. In those years, I've honed my analytical thinking and collaboration skills, and I love working with a team. I love collaborating and making connections.",
+    "personalIntroOne": "Hi, Yohannes here, a computer science student who constantly seeks innovative solutions to everyday problems. I've honed my analytical thinking and collaboration skills in those years, and I love working with a team. I love collaborating and making connections.",
     "personalIntroTwo": "I am always open to chatting about tech startups, and I would love for you to connect with me. Please feel free to message me if you want work done. Skills: Java, Android, React, Flutter, and Kotlin. Open to: remote jobs and internships",
-    "personalSkills": "Java, Android, React, Flutter and kotlin.",
+    "personalSkills": "Java, Android, Flutter, and kotlin.",
     "openTo": "Remote jobs and internships",
     "resumeLink": "https://drive.google.com/file/d/121H6hNMGXWx6UUgDBo0-564j7VsbJjH3/view?usp=share_link"
   },
@@ -42,10 +42,15 @@
     }
   ],
   "experience": [
+     {
+      "title": "Android Developer",
+      "company": "GebetaMaps",
+      "time": "Jul 2024 - Present"
+    },
     {
       "title": "Lead Android Developer",
       "company": "Alet Systems",
-      "time": "May 2024 - Present"
+      "time": "May 2024 - Jul 2024"
     },
     {
       "title": "Junior Android Developer",
@@ -114,7 +119,7 @@
     {
       "name": "Akotet Y.",
       "title": "Research Intern at ISIL, KAIST",
-      "content": "I have been lucky enough and have had the opportunity to work with Yohannes. He is passionate, skillful, and most of all fun to work with. Anyone who values being on top of projects and is looking for a highly competent full-stack/android developer will be glad to work with him.",
+      "content": "I have been lucky enough to have had the opportunity to work with Yohannes. He is passionate, skillful, and most of all fun to work with. Anyone who values being on top of projects and is looking for a highly competent full-stack/android developer will be glad to work with him.",
       "photoUrl": "https://yohannestz.netlify.app/images/ak_ysh.jpeg"
     },
     {
